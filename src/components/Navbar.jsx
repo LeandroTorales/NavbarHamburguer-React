@@ -87,7 +87,7 @@ const Navbar = () => {
       <StyledNavbar>
         <h2>Sneakers</h2>
         <div className={`links ${click ? "active" : ""}`}>
-          <a onClick={handleClick} href="#">Home</a>
+          <a onClick={handleClick} href="#">Home </a>
           <a onClick={handleClick} href="#">Catalogo</a>
           <a onClick={handleClick} href="#">Zapatillas</a>
           <a onClick={handleClick} href="#">Contactos</a>
